@@ -7,7 +7,9 @@ function About(props) {
         <div>
             <Link to="/about" className='header-url'><h1>About</h1></Link>
             {/* Previous profile pic: https://i.imgur.com/4xlzDwY.jpg */}
-            <Link to="/about"><img className="profile-picture" src="images/blurred-profile.jpg" /></Link>
+            {/* <Link to="/about"><img className="profile-picture" src="images/blurred-profile.jpg" /></Link> */}
+            {/* <Link to="/about"><img className="profile-picture" src="images/professional.jpeg" /></Link> */}
+            <Link to="/about"><img className="profile-picture" src="images/gainsight-full-square.jpg" /></Link>
             <p>Born and raised in Los Angeles.</p>
         </div>
     )
