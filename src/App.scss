@@ -1,0 +1,101 @@
+/*** Header URLs for nav bar and components. ***/ 
+
+$header-color: black;
+$header-hover-color: teal; 
+
+.header-url {
+  color: $header-color;
+  text-decoration: none;
+  transition-duration: .7s; // For leaving hover.
+}
+
+.header-url:hover {
+  color: $header-hover-color;
+  // text-decoration: underline;
+  transition-duration: .5s; // For going into hover.
+}
+
+/******** NAV BAR ********/
+$nav-padding: 20px;
+
+.nav-left {
+  position: absolute;
+  left: $nav-padding;
+  .header-url {
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.nav-right {
+  position: absolute;
+  right: $nav-padding;
+  .header-url {
+    text-decoration: none;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/******** HOME PAGE ********/
+.profile-picture {
+  border-radius: 4px;
+  /* transition-delay: 1s; */
+  transition-duration: .7s;
+  width: 300px;
+  /* https://css-tricks.com/notched-boxes/ */
+  clip-path: 
+    polygon(
+      0% 10px,                 /* top left */
+      10px 0%,                 /* top left */
+      calc(100% - 0px) 0%,    /* top right */
+      100% 10px,               /* top right */
+      100% calc(100% - 10px),  /* bottom right */
+      calc(100% - 10px) 100%,  /* bottom right */
+      10px 100%,               /* bottom left */
+      0 calc(100% - 0px)      /* bottom left */
+    );
+}
+
+.profile-picture:hover {
+  /* filter: grayscale(70%); */
+  opacity: .6;
+  transition-duration: .7s;
+}
