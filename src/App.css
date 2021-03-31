@@ -1,6 +1,6 @@
 /*** Header URLs for nav bar and components. ***/
 .header-url {
-  color: black;
+  color: #08126b;
   text-decoration: none;
   -webkit-transition-duration: .7s;
           transition-duration: .7s;
@@ -72,29 +72,17 @@
   color: #61dafb;
 }
 
-@-webkit-keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 /******** HOME PAGE ********/
+h1 {
+  color: #08126b;
+}
+
+.text {
+  width: 50%;
+  margin: auto;
+  line-height: 1.6;
+}
+
 .profile-picture {
   border-radius: 4px;
   /* transition-delay: 1s; */
@@ -112,4 +100,24 @@
   -webkit-transition-duration: .7s;
           transition-duration: .7s;
 }
+
+a {
+  color: #08126b;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+a:hover {
+  color: teal;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.hr {
+  width: 50%;
+}
+
+/******** ABOUT PAGE ********/
 /*# sourceMappingURL=App.css.map */

@@ -12,12 +12,20 @@ function Home(props) {
     
     return (
         <div> 
-            <h1>Hi, I'm Patricia 👋</h1>
-            <p>Brand statement goes here.</p>
+            <h1>Hi, I'm Trisha 👋</h1>
+            <div className="text">
+                <p>I’m a <b>software engineer</b> who likes <b>databases</b> and working with <b>product</b> teams.</p>
+
+                <p>I love understanding how things work and being able to explain them, and my growth mindset means that I enjoy curating a productive and collaborative work environment.</p>
+
+                <p>I'm always happy to chat about software engineering opportunities or diversity & inclusion strategies.</p>
+            </div>
+            <hr className="hr"/>
             <HashLink to="/#about" component={About} id="about" />
+            <hr className="hr"/>
             <HashLink to="/#projects" component={Projects} id="projects" />
-            <HashLink to="/#contact" component={Contact} id="contact" />
-                
+            <hr className="hr"/>
+            <HashLink to="/#contact" component={Contact} id="contact" />    
         </div>
     )
 }

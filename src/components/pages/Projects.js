@@ -14,7 +14,7 @@ let projects = [
 function Projects(props) {
     return (
         <div>
-            <Link to="/projects" className='header-url'><h1>Projects</h1></Link>
+            <Link to="/projects" className='header-url'><h1 className="header-url">Projects</h1></Link>
             Hello this is the Projects page. This will soon be replaced by functional components when I build out my actual portfolio on my github website.
             <div>
                 <img src="bunny.jpg" />

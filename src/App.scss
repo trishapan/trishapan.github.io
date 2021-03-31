@@ -1,7 +1,8 @@
 /*** Header URLs for nav bar and components. ***/ 
 
-$header-color: black;
+$header-color: rgb(8, 18, 107);
 $header-hover-color: teal; 
+$content-width: 50%;
 
 .header-url {
   color: $header-color;
@@ -65,16 +66,26 @@ $nav-padding: 20px;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
 
 /******** HOME PAGE ********/
+h1 {
+  color: $header-color;
+}
+
+.text {
+  width: $content-width;
+  margin: auto;
+  line-height: 1.6;
+}
+
 .profile-picture {
   border-radius: 4px;
   // border-radius: 150px;
@@ -100,3 +111,23 @@ $nav-padding: 20px;
   opacity: .6;
   transition-duration: .7s;
 }
+
+// For hyperlinks.
+a {
+  color: $header-color;
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: .7s; // For leaving hover.
+}
+
+a:hover {
+  color: $header-hover-color;
+  // text-decoration: underline;
+  transition-duration: .5s; // For going into hover.
+}
+
+.hr {
+  width: $content-width;
+}
+
+/******** ABOUT PAGE ********/
