@@ -6,12 +6,12 @@ export default function Project(props) {
             <div className="project">
                 <h2>{props.project.name}</h2>
                 <div className="project-left">
-                    <img src={`/projects/${props.project.img}`} />
+                    <a href={`/images/projects/${props.project.img}`} target="_blank"><img src={`/images/projects/${props.project.img}`} alt={`Screenshot of ${props.project.name} live site.`} width={"500px"} /></a>
                 </div>
                 <div className="project-right">
-                    <p>Tech Stack: {props.project.techStack}</p>
-                    <p>{props.project.description}</p>
-
+                    <p><b>Tech Stack</b>: {props.project.techStack}</p>
+                    {/* <p>{props.project.description}</p> */}
+                    <p dangerouslySetInnerHTML={{ __html: props.project.description }} />
                     <p><a target="_blank" href={props.project.url}>Live Site</a><span> | </span>
                     <a target="_blank" href={props.project.github}>Github</a></p>
                 </div>

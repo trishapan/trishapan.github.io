@@ -23,13 +23,13 @@ function About(props) {
                 reading webcomics and webnovels,
                 or dressing up (outfits + makeup).
             </p>
-            <p>
+            <p><em>Professional</em>: <span> </span>
                 <a target="_blank" href="https://www.linkedin.com/in/patricia-pan/">Linkedin</a><span> | </span>
                 <a target="_blank" href="https://github.com/patricia-pan">Github</a><span> | </span>
                 <a target="_blank" href="https://patricia-pan.medium.com/">Medium</a>
             </p>
 
-            <p>
+            <p><em>Personal</em>: <span> </span>
                 {/* <a href="https://www.facebook.com/pat.emera.pan/">Facebook</a><span> | </span> */}
                 <a target="_blank" href="https://ppan.substack.com/">Substack</a><span> | </span>
                 <a target="_blank" href="https://www.instagram.com/pat.e.pan/">Instagram</a><span> | </span>
