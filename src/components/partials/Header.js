@@ -13,6 +13,7 @@ class Header extends Component {
                 <nav className="nav-right">
                     <Link to="/#about" className="header-url">About</Link>{' | '}
                     <Link to="/#projects" className="header-url">Projects</Link>{' | '}
+                    <Link to="/contact" className="header-url">Contact</Link>{' | '}
                     <a target="_blank" href="https://drive.google.com/file/d/1chUOF-zbosztG8ohSgw8UOJOxIjLnTk8/view?usp=sharing" className="header-url">Resume</a>
                 </nav>
             </header>
