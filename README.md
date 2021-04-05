@@ -24,5 +24,5 @@ https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
 Then, in your repo settings, have the URL based on the gh-pages branch that gets created for you.
 
-Run 'npm run deploy' everytime you want to update your site.
+Run 'npm run deploy' every time you want to update your site.
  -->
