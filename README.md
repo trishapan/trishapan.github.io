@@ -15,7 +15,7 @@ https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
 Then, in your repo settings, have your Github pages be set to the gh-pages branch that gets created for you.
 
-Run 'npm run deploy' to deploy your site. (Then go back to github Pages settings to ensure that custom domain is still what it should be)
+Run 'npm run deploy' to deploy your site. (Then go back to github Pages [settings](https://github.com/patricia-pan/patricia-pan.github.io/settings) to re-add custom domain as patriciapan.com)
 
 <!-- 
 How to deploy React to Github pages:
