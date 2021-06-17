@@ -15,7 +15,7 @@ https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
 Then, in your repo settings, have your Github pages be set to the gh-pages branch that gets created for you.
 
-Run 'npm run deploy' to deploy your site. (Then go back to github Pages [settings](https://github.com/trishapan/trishapan.github.io/settings) to re-add custom domain as patriciapan.com)
+Run 'npm run deploy' to deploy your site. (Then go back to github Pages [settings](https://github.com/trishapan/trishapan.github.io/settings) to re-add custom domain as patriciapan.com since that usually gets overwritten)
 
 ## How to push updates
 Make your updates in the main/master branch. Then run `npm run deploy`
