@@ -18,7 +18,10 @@ Then, in your repo settings, have your Github pages be set to the gh-pages branc
 Run 'npm run deploy' to deploy your site. (Then go back to GitHub Pages [settings](https://github.com/trishapan/trishapan.github.io/settings/pages) to re-add custom domain as trishapan.com since that usually gets overwritten)
 
 # How to push updates
-Make your updates in the main/master branch. Then run `npm run deploy`
+Push your updates in the main/master branch
+
+Run `npm run deploy`
+
 Go to GitHub Pages [settings](https://github.com/trisha/trisha.github.io/settings/pages) to re-add 'trishapan.com' as the custom domain.
 
 <!-- 
