@@ -22,14 +22,17 @@ Push your updates in the main/master branch
 
 Run `npm run deploy`
 
-Go to GitHub Pages [settings](https://github.com/trisha/trisha.github.io/settings/pages) to re-add 'trishapan.com' as the custom domain.
+Go to GitHub Pages [settings](https://github.com/trisha/trisha.github.io/settings/pages) to re-add 'trishapan.com' as the custom domain
+
+Wait around 7 minutes to see website update
 
 <!-- 
 How to deploy React to Github pages:
 
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
-Then, in your repo settings, have the URL based on the gh-pages branch that gets created for you.
+Then, in your repo settings, have the URL based on the gh-pages branch that gets created for you
 
-Run 'npm run deploy' every time you want to update your site.
+Run 'npm run deploy' every time you want to update your site
+
  -->
