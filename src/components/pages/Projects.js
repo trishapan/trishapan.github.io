@@ -36,7 +36,7 @@ let projectComponents = projects.map( (project, i) => {
 function Projects(props) {
     return (
         <div>
-            <Link to="/projects" className='header-url'><h1 className="header-url">Projects</h1></Link>
+            <Link to="/projects" className='header-url'><h1 className="header-url" id="projects">Projects</h1></Link>
             <p>My favorite stack to work with is MERN (MongoDB, Express, React, and Node.js).</p>
             <p>However, I also have experience with SQL (Sequelize), SCSS, Bootstrap, Material UI, and Python.</p>
             {projectComponents}

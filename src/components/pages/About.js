@@ -6,7 +6,7 @@ function About(props) {
     return (
         // style={{marginLeft:"15px"}}
         <div className="text">
-            <Link to="/about" className='header-url'><h1 className="header-url">About</h1></Link>
+            <Link to="/about" className='header-url'><h1 className="header-url" id="about">About</h1></Link>
             {/* Previous profile pic: https://i.imgur.com/4xlzDwY.jpg */}
             {/* <Link to="/about"><img className="profile-picture" src="images/blurred-profile.jpg" /></Link> */}
             {/* <Link to="/about"><img className="profile-picture" src="images/professional.jpeg" /></Link> */}
@@ -24,16 +24,16 @@ function About(props) {
                 or dressing up (outfits + makeup).
             </p>
             <p><em>Professional</em>: <span> </span>
-                <a target="_blank" href="https://www.linkedin.com/in/patricia-pan/">Linkedin</a><span> | </span>
-                <a target="_blank" href="https://github.com/patricia-pan">Github</a><span> | </span>
-                <a target="_blank" href="https://patricia-pan.medium.com/">Medium</a>
+                <a target="_blank" href="https://www.linkedin.com/in/trishapan/">Linkedin</a><span> | </span>
+                <a target="_blank" href="https://github.com/trisha">Github</a><span> | </span>
+                <a target="_blank" href="https://trishapan.medium.com/">Medium</a>
             </p>
 
             <p><em>Personal</em>: <span> </span>
                 {/* <a href="https://www.facebook.com/pat.emera.pan/">Facebook</a><span> | </span> */}
                 <a target="_blank" href="https://ppan.substack.com/">Substack</a><span> | </span>
                 <a target="_blank" href="https://www.instagram.com/pat.e.pan/">Instagram</a><span> | </span>
-                <a target="_blank" href="https://twitter.com/pat_e_pan">Twitter</a>
+                <a target="_blank" href="https://twitter.com/trishaepan">Twitter</a>
             </p>
         </div>
     )

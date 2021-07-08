@@ -7,6 +7,7 @@ import Home from './components/pages/Home'
 import Blog from './components/pages/Blog'
 import About from './components/pages/About'
 import Projects from './components/pages/Projects'
+import Contact from './components/pages/Contact'
 
 class App extends Component {
   state = {
@@ -20,12 +21,13 @@ class App extends Component {
     return (
     <Router>
       {/* Homepage, Blog, About, Projects */}
+      <Header />
       <div className="App">
-        <Header />
         <Route exact path="/" component={Home} />
         <Route path="/blog" render={ () => <Blog posts={this.state.posts} /> }/>
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
       </div>
     </Router>
     )
