@@ -14,8 +14,8 @@ function About(props) {
             <p>The daughter of Chinese immigrants, I was born and raised in Los Angeles.</p>
             <p>In 2017, I graduated from <a target="_blank" href="https://www.cmu.edu/">Carnegie Mellon</a> with a B.S. in Chemical Engineering, and a double major in Biomedical Engineering.</p>
             <p>I spent 3 years with <a target="_blank" href="https://www.accenture.com/us-en">Accenture</a> doing technology consulting while based in San Francisco.</p>
-            <p>I did a coding bootcamp with <a target="_blank" href="https://generalassemb.ly/education/software-engineering-immersive-remote">General Assembly</a> and graduated in March 2021.</p>
-            <p>Now, I'm seeking my first software engineering role.</p>
+            <p>I pivoted my career after doing a coding bootcamp with <a target="_blank" href="https://generalassemb.ly/education/software-engineering-immersive-remote">General Assembly</a> in March 2021.</p>
+            <p>After working at 2 startups, now I'm seeking my next junior software engineering opportunity.</p>
             <p>My dream is to one day become a CTO, but I'm not in a hurry. In my spare time, you can find me 
                 painting or hosting paint n' sips, skiing blues, backpacking with a 700 lumen flashlight (because I'm scared of the dark),
                 doing improv with no shame (e.g. yodeling),
