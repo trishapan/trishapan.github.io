@@ -21,8 +21,6 @@ function Home(props) {
                 <p>I’m a <b>software engineer</b> who likes <b>databases</b> and working with <b>product</b> teams.</p>
 
                 <p>I love understanding how things work and being able to explain them, and my growth mindset means that I enjoy curating a productive and collaborative work environment.</p>
-
-                <p>I'm always happy to chat about software engineering opportunities or DEI strategies.</p>
             </div>
             <hr className="hr"/>
             {/* <HashLink to="/#about" component={About} id="about" />
