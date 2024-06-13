@@ -14,7 +14,9 @@ class Header extends Component {
                     <HashLink smooth to="/#about" className="header-url">About</HashLink>{' | '}
                     <HashLink smooth to="/#projects" className="header-url">Projects</HashLink>{' | '}
                     <HashLink smooth to="/#contact" className="header-url">Contact</HashLink>{' | '}
-                    <a target="_blank" href="https://drive.google.com/file/d/1ycMRuskcia8PcAOvSZMSAhpZOCU2T7m5/view?usp=sharing" className="header-url">Resume</a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1wIcIRRyV2Qw94P_XfNvAhYY97BFv2YzY/view?usp=sharing" className="header-url">Resume</a>
+                    {/* <a target="_blank" href="https://drive.google.com/file/d/1ycMRuskcia8PcAOvSZMSAhpZOCU2T7m5/view?usp=sharing" className="header-url">Resume</a> */}
+
                 </nav>
             </header>
         )
